@@ -1,0 +1,54 @@
+* {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+.card {
+    border: 1px solid #d3d3d3;
+    border-radius: .25rem;
+    max-width:390px;
+  }
+
+figure {
+    background-size: cover;
+    min-height: 180px;
+    background-position: center;
+    background-color: #ccc;
+  }
+
+  .title {
+      background-color: black;
+      opacity: 0.7;
+      padding: 7px;
+      color: white;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 1px
+  }
+
+  .content {
+    padding: 15px;
+  }
+
+  .caption {
+    padding-bottom: 5px;
+    color: #0080C6;
+  }
+
+  .summary {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .stack {
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+
+  button {
+    background-color: transparent;
+    border: 1px solid #0080C6;;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: .25rem;
+  }
+  
+

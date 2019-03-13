@@ -1,3 +1,10 @@
 main {
-    grid-row: 2;
+    border: 1px solid red;
+    height: 90vh
 }
+
+
+
+/* main {
+    grid-row: 2;
+} */

@@ -9,7 +9,7 @@ import React from "react"
 // import PropTypes from "prop-types"
 // import { StaticQuery, graphql } from "gatsby"
 // import Header from "./header"
-import Header from "./Header"
+
 import Footer from "./Footer"
 import Content from "./Content"
 import Menu from "./Menu"
@@ -19,7 +19,6 @@ class Layout extends React.Component {
   render() {
     return (
       <div className='app'>
-      <Header />
       <Menu />
       <Content />
       <Footer/>
