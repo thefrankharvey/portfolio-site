@@ -8,10 +8,14 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.nav {
+  position: sticky;
+  top: 0;
+}
+
 .navbar {
   font-size: 14px;
   background-color: black;
-
   padding-bottom: 10px;
 }
 
@@ -76,13 +80,20 @@ ul {
     margin: 0;
   }
 
+  .nav {
+    position: sticky;
+    top: 0;
+  }
+
   body {
     font-family: "Josefin Sans", sans-serif;
   }
 
   .navbar {
+    position: sticky; 
+    top: 0;
     font-size: 14px;
-    background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+    background-color: black;
     border: 1px solid rgba(0, 0, 0, 0.2);
     grid-row: 1;
     grid-column: 1/3;

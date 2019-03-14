@@ -1,6 +1,6 @@
 import React from "react"
 import "./menu.css"
-
+// import { Link } from "gatsby"
 class Menu extends React.Component {
   handleClick() {
     let ul = document.getElementById("js-menu")
@@ -9,13 +9,12 @@ class Menu extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="nav">
         <span
           className="navbar-toggle"
           id="js-navbar-toggle"
           ref="hamburger"
-          onClick={this.handleClick}
-        >
+          onClick={this.handleClick}>
           <i className="fas fa-bars" />
         </span>
         <nav className="navbar">

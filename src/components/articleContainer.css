@@ -1,5 +1,5 @@
 .article-container {
-  display: flex;
+  display: grid;
   justify-content: center;
   border: 3px solid blue;
   height: auto;
@@ -12,5 +12,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
     grid-gap: 20px;
+    justify-content: center;
   }
 }

@@ -5,6 +5,8 @@
     border: 1px solid #d3d3d3;
     border-radius: .25rem;
     max-width:390px;
+    margin-bottom: 35px;
+    justify-self: center;
   }
 
 figure {
