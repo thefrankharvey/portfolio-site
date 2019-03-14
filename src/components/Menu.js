@@ -13,7 +13,6 @@ class Menu extends React.Component {
         <span
           className="navbar-toggle"
           id="js-navbar-toggle"
-          ref="hamburger"
           onClick={this.handleClick}>
           <i className="fas fa-bars" />
         </span>
