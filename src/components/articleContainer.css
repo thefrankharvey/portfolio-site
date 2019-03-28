@@ -1,7 +1,6 @@
 .article-container {
   display: grid;
   justify-content: center;
-  border: 3px solid blue;
   height: auto;
   width: 100%;
   padding: 10px;

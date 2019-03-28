@@ -1,24 +1,27 @@
 /* eslint-disable */
 import React from "react"
 // import { Link } from "gatsby"
+// import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 
 
-class Index extends React.Component {
+class About extends React.Component {
+ 
   render() {
     return (
       <div> 
-        <Layout index={this.props.data.allContentfulIndex.edges} />
+          <Layout about={this.props.data.allContentfulAbout.edges} />
+        
       </div>
     )
   }
 }
 
-export default Index;
+export default About;
 
 export const query = graphql`
   query {
-    allContentfulIndex {
+    allContentfulAbout {
       edges {
         node {
           type
@@ -27,4 +30,3 @@ export const query = graphql`
      }
     }
 `
-

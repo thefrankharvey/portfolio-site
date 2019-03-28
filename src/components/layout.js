@@ -5,21 +5,24 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
+import React from "react";
 // import PropTypes from "prop-types"
 // import { StaticQuery, graphql } from "gatsby"
 // import Header from "./header"
 
-import Footer from "./Footer"
-import Menu from "./Menu"
-import "./layout.css"
-import ArticleContainer from "./ArticleContainer"
+import Footer from "./Footer";
+import Menu from "./Menu";
+import "./layout.css";
+
+import ArticleContainer from "./ArticleContainer";
+
 class Layout extends React.Component {
+
   render() {
     return (
       <div className='app'>
       <Menu />
-      <ArticleContainer stack={this.props.stack}/>
+      <ArticleContainer content={this.props}/>
       <Footer/>
       </div>
     )

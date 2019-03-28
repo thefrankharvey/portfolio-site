@@ -1,6 +1,6 @@
 import React from "react"
 import "./menu.css"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 class Menu extends React.Component {
   handleClick() {
     let ul = document.getElementById("js-menu")
@@ -17,12 +17,12 @@ class Menu extends React.Component {
           <i className="fas fa-bars" />
         </span>
         <nav className="navbar">
-          <div className="logo">Frank Harvey McManus</div>
+          <div className="logo"><Link to="/">Frank Harvey McManus</Link></div>
           <ul className="main-nav" id="js-menu">
-            <li className="nav-links">About</li>
-            <li className="nav-links">Portfolio</li>
-            <li className="nav-links">Blog</li>
-            <li className="nav-links">Contact</li>
+            <li className="nav-links"><Link to="/about">About</Link></li>
+            <li className="nav-links"><Link to="/portfolio">Portfolio</Link></li>
+            <li className="nav-links"><Link to="/blog">Blog</Link></li>
+            <li className="nav-links"><Link to="/contact">Contact</Link></li>
           </ul>
         </nav>
       </div>
