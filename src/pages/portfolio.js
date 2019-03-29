@@ -1,9 +1,6 @@
-/* eslint-disable */
 import React from "react"
-// import { Link } from "gatsby"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
-
 
 class Portfolio extends React.Component {
   

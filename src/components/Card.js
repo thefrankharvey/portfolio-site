@@ -1,6 +1,5 @@
 import React from "react"
-import "./card.css"
-
+import "../styles/card.css"
 
 class Card extends React.Component {
   
@@ -8,14 +7,13 @@ makeButtons(buttons) {
 const buttonList = buttons.map((butt) => {
   return <a className="btn" href={butt.link} target="_blank" rel="noopener noreferrer">{butt.title}</a>
 })
-return buttonList
 
+return buttonList
 }
 
   render() {
-  
     const {buttons, stack, summary, title} = this.props.project.node
-    
+
     return (
       <article className="card">
         <figure>

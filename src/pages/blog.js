@@ -1,11 +1,8 @@
 import React from "react"
-// import { Link } from "gatsby"
-// import { graphql } from "gatsby"
 import Layout from "../components/Layout"
-
+import { graphql } from "gatsby"
 
 class Blog extends React.Component {
- 
   render() {
     return (
       <div> 
