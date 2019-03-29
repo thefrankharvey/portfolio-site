@@ -4,6 +4,7 @@
   height: auto;
   width: 100%;
   padding: 10px;
+  background-color: rgb(247, 222, 226)
 }
 
 @media screen and (min-width: 768px) {
