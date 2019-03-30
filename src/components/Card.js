@@ -17,6 +17,8 @@ return buttonList
     return (
       <article className="card">
         <figure>
+        {/* <iframe src="https://giphy.com/embed/t606LXGepba1oObdQn" width="100%" height="100%"  frameBorder="0" class="giphy-embed" allowFullScreen></iframe> */}
+      
         <img alt="thumbnail" src={this.props.project.node.thumbnailImage.file.url}></img>
         </figure>
         <div className="content">
