@@ -41,7 +41,6 @@ ul > li > a:hover{
   color: rgb(230, 228, 228);
 }
 
-<<<<<<< HEAD
 .main-nav li {
   text-align: center;
   margin: 15px auto;
@@ -71,40 +70,6 @@ nav > div > a {
 
 nav > div > a:hover {
   color: rgb(230, 228, 228);
-=======
-nav > div > a:hover {
-color: rgb(230, 228, 228);
-}
-
-
-.main-nav li {
-  text-align: center;
-  margin: 15px auto;
-  list-style-type: none;
-  
-}
-
-.logo {
-  padding-left: 15px;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  font-size: 23px;
-  justify-content: center;
-  align-items: center;
-  align-content: center
-}
-
-.logo > span {  
-  color:  rgb(49, 48, 48);
-  font-size: 12px;
-}
-nav > div > a {
-  font-family: 'Germania One', cursive;
-  color: rgb(49, 48, 48)
-  
->>>>>>> fefaac99bfe979c0bdf05a5c7d01730cfde7ff72
 }
 
 .nav-toggle {
