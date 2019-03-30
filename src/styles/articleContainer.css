@@ -4,13 +4,14 @@
   height: auto;
   width: 100%;
   padding: 10px;
-}
+  background-color: rgb(247, 222, 226);
+} 
 
 @media screen and (min-width: 768px) {
   .article-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 10px;
     justify-content: center;
   }
 }

@@ -1,4 +1,28 @@
 footer {
-     height:45px;
+     margin: 0;
+     width: 100%;
+     height: auto;
      padding: 15px;
-}
+     background-color: #76e4d1;
+     border-top: 1px solid #66a79c;
+   }
+   
+   .social-icons {
+     display: flex;
+   }
+   
+   a {
+     color: rgb(100, 99, 99);
+     margin: 5px;
+   }
+   
+   a > i:hover {
+     color: rgb(230, 228, 228);
+   }
+   
+   .built-by {
+     font-size: 14px;
+     font-family: "Roboto", sans-serif;
+     color: rgb(100, 99, 99);
+   }
+   

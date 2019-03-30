@@ -1,14 +1,12 @@
 import React from "react";
-import "../styles/layout.css";
+import "../styles/index.css";
 
 class Index extends React.Component {
 
   render() {
       var { type } = this.props.indexData
     return (
-      <div>
-          {type} COMPONENT
-      </div>
+      <div className="index-photo"></div>
     )
   }
 }

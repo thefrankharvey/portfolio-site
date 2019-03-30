@@ -17,12 +17,11 @@ class Menu extends React.Component {
           <i className="fas fa-bars" />
         </div>
         <nav className="navbar">
-          <div className="logo"><Link to="/">Frank Harvey McManus</Link></div>
+          <div className="logo"><Link to="/"> Frank Harvey McManus</Link><span>Artist {'\u2715'} Engineer</span></div>
           <ul className="main-nav" id="js-menu">
             <li className="nav-links"><Link to="/about">About</Link></li>
             <li className="nav-links"><Link to="/portfolio">Portfolio</Link></li>
             <li className="nav-links"><Link to="/blog">Blog</Link></li>
-            <li className="nav-links"><Link to="/contact">Contact</Link></li>
           </ul>
         </nav>
       </div>

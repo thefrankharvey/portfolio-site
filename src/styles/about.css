@@ -1,0 +1,67 @@
+.about-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1;
+    grid-auto-rows: minmax(200px, auto);
+    margin: 10px;
+    border: 1px solid red;
+}
+
+.mission {
+    border: 1px solid blue;
+}
+
+.about-photo {
+    grid-row: 2 / 4;
+    border: 1px solid green;
+}
+
+.bio {
+    border: 1px solid green;
+}
+
+.interests {
+    border: 1px solid green;
+}
+
+.blurb {
+    border: 1px solid green;
+}
+
+@media screen and (min-width: 768px) {
+    .about-grid {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: minmax(200px, auto);
+        margin: 10px;
+        border: 1px solid red;
+    }
+    
+    .mission {
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+        border: 1px solid blue;
+    }
+    
+    .about-photo {
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+        border: 1px solid green;
+    }
+    .bio {
+        grid-column: 1;
+        grid-row: 3 / 5;
+        border: 1px solid green;
+    }
+    .interests {
+        grid-column: 2;
+        grid-row: 3 / 5;
+        border: 1px solid green;
+    }
+    .blurb {
+        grid-column: 3;
+        grid-row: 3 / 4;
+        border: 1px solid green;
+    }
+  }

@@ -2,7 +2,6 @@ import React from "react"
 import "../styles/articleContainer.css"
 import Card from "./Card"
 import Index from "./Index"
-import Contact from "./Contact"
 import About from "./About"
 class ArticleContainer extends React.Component {
   // send all props to articlecontainer and articlecontainer decides which to render
@@ -22,15 +21,11 @@ class ArticleContainer extends React.Component {
           )
       case "index":
         return (
-          <div className="article-container"><Index indexData={this.props.content.index[0].node} /></div>
-        )
-      case "contact":
-        return (
-          <div className="article-container"><Contact contactData={this.props.content.contact[0].node} /></div>
+          <div className="index-container"><Index indexData={this.props.content.index[0].node} /></div>
         )
       case "about":
         return (
-          <div className="article-container"><About aboutData={this.props.content.about[0].node} /></div>
+          <div className="about-container"><About aboutData={this.props.content.about[0].node} /></div>
         )
       default:
         return "Nothing here. Please use the menu to navigate."

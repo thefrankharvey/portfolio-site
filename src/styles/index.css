@@ -1,0 +1,21 @@
+/* <link href="https://fonts.googleapis.com/css?family=Germania+One|Roboto:400,500,700,900" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> */
+.index-container {
+    min-height: calc(100vh - 175px);
+  width: 100%;
+    background-image: url("../portfoliocat-01.png");
+background-size: cover;
+background-position-x: center;
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .index-container {
+        min-height: calc(100vh - 159px);
+      width: 100%;
+        background-image: url("../portfoliocat-01.png");
+  background-size: cover;
+    }
+
+}
