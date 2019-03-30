@@ -1,10 +1,14 @@
+.about-container {
+    height: auto;
+    background-color: rgb(248, 205, 227);
+}
+
 .about-grid {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1;
     grid-auto-rows: minmax(200px, auto);
     margin: 10px;
-    border: 1px solid red;
 }
 
 .mission {
@@ -29,6 +33,11 @@
 }
 
 @media screen and (min-width: 768px) {
+    .about-container {
+        height: auto;
+        background-color: rgb(248, 205, 227);
+    }
+    
     .about-grid {
         display: grid;
         grid-gap: 10px;

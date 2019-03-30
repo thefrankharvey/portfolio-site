@@ -4,7 +4,8 @@
   height: auto;
   width: 100%;
   padding: 10px;
-  background-color: rgb(247, 222, 226);
+  background-color: rgb(248, 205, 227);
+  min-height: calc(100vh - 159px);
 } 
 
 @media screen and (min-width: 768px) {
@@ -13,5 +14,7 @@
     grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
     grid-gap: 10px;
     justify-content: center;
+    background-color: rgb(248, 205, 227);
+    min-height: calc(100vh - 159px);
   }
 }

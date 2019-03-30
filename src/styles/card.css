@@ -2,7 +2,7 @@
   font-family: 'Roboto', sans-serif;
 }
 .card {
-  border-radius: 0.25rem;
+  border-radius: 0 0 0.25rem 0.25rem;
   max-width: 371px;
   max-height: 377px;
   margin-bottom: 35px;
@@ -74,7 +74,7 @@ img {
   color: rgb(100, 99, 99);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  background-color: #7ec9bd;
+  background-color: #76e4d1;
   border-top: 1px solid #74c2b4;
 }
 

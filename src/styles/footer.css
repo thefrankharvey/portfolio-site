@@ -11,13 +11,9 @@ footer {
      display: flex;
    }
    
-   a {
+   footer > div.social-icons > a {
      color: rgb(100, 99, 99);
      margin: 5px;
-   }
-   
-   a > i:hover {
-     color: rgb(230, 228, 228);
    }
    
    .built-by {
