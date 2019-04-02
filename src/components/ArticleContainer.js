@@ -13,19 +13,21 @@ class ArticleContainer extends React.Component {
             {this.props.content.projects.map(project => (<Card project={project} />))}
           </div>
         )
-      case "posts":
-        return (
-          <div className="article-container">
-            {this.props.content.posts.map(project => (<Card project={project} />))}
-          </div>
-          )
+      // case "posts":
+      //   return (
+      //     <div className="article-container">
+      //       {this.props.content.posts.map(project => (<Card project={project} />))}
+      //     </div>
+      //     )
       case "index":
         return (
-          <div className="index-container"><Index indexData={this.props.content.index[0].node} /></div>
+          <div className="index-container"><Index /></div>
         )
       case "about":
         return (
-          <div className="about-container"><About aboutData={this.props.content.about[0].node} /></div>
+          <div className="about-container">
+          <About pdf={props.content.about[0].node.resume.file.url}/>
+          </div>
         )
       default:
         return "Nothing here. Please use the menu to navigate."

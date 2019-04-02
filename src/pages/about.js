@@ -19,6 +19,11 @@ export const query = graphql`
       edges {
         node {
           type
+          resume {
+            file {
+              url
+            }
+          }
         }
       }
      }

@@ -29,6 +29,7 @@ export const query = graphql`
            link
            title
          }
+         giphy
          thumbnailImage {
           file {
             url

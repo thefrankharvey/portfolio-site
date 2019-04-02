@@ -12,19 +12,16 @@ return buttonList
 }
 
   render() {
-    const {buttons, stack, summary, title} = this.props.project.node
-
+    console.log(this.props.project.node.giphy)
+    const {buttons, stack, summary, title, giphy} = this.props.project.node
     return (
       <article className="card">
         <figure>
-        {/* <iframe src="https://giphy.com/embed/t606LXGepba1oObdQn" width="100%" height="100%"  frameBorder="0" class="giphy-embed" allowFullScreen></iframe> */}
-      
-        <img alt="thumbnail" src={this.props.project.node.thumbnailImage.file.url}></img>
+        <iframe src={ giphy } width="100%" height="100%"  frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         </figure>
         <div className="content">
         <div className="caption"><h4>{title}</h4></div>
         <div className="summary">{summary}</div>
-        
         <div className="date will go here"></div>
         </div>
         <div className="btn-container">

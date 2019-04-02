@@ -7,13 +7,13 @@ class Footer extends React.Component {
       // social media icons here - font awesome maybe
       <footer>
         <div className="social-icons">
-        <a href="https://github.com/thefrankharvey" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square fa-2x"></i></a>
+        <a href="https://github.com/thefrankharvey" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square fa-2x"></i></a>
 
-        <a href="https://linkedin.com/in/thefrankharvey" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://linkedin.com/in/thefrankharvey" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-2x"></i></a>
 
-        <a href="http://twitter.com/thefrankharvey" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square fa-2x"></i></a>
+        <a href="http://twitter.com/thefrankharvey" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square fa-2x"></i></a>
 
-        <a href="mailto:frank@thefrankharvey.com?subject=You're hired, Frank!"><i class="fas fa-envelope-square fa-2x"></i></a>
+        <a href="mailto:frank@thefrankharvey.com?subject=You're hired, Frank!"><i className="fas fa-envelope-square fa-2x"></i></a>
         </div>
 
         <div className="built-by">
