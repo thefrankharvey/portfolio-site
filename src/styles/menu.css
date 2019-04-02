@@ -84,6 +84,9 @@ nav > div > a:hover {
   
 }
 
+.fa-bars:hover {
+  color: rgb(230, 228, 228)
+}
 .fas {
   color: rgb(100, 99, 99)
 }

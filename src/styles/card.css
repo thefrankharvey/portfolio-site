@@ -1,6 +1,4 @@
-* {
-  
-}
+
 .card {
   border-radius: 0 0 0.25rem 0.25rem;
   max-width: 371px;
@@ -15,13 +13,14 @@ box-shadow: 1px 3px 8px 0px rgba(0,0,0,0.75);
 
 figure {
   background-position: center;
-  background-color: #ccc;
+  background-color: black;
   height: 210px;
   border: 2px solid white;
 }
 
 h4 {
-  color: #0080c6
+  color: rgb(100, 99, 99);
+  margin-bottom: 10px;
 }
 img {
   width: 100%;
@@ -34,9 +33,8 @@ img {
   padding: 7px;
   color: white;
   font-size: 12px;
-  font-weight: 400;
   letter-spacing: 1px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .content {
@@ -46,24 +44,19 @@ img {
   min-height: 123px;
 }
 
-.caption {
-  padding-bottom: 5px;
-  color: #0080c6;
-  font-family: 'Roboto', sans-serif;
-}
-
 .summary {
-  font-size: 14px;
+  font-size: 12px;
   padding-bottom: 20px;
   min-height: 80px;
   color: rgb(49, 48, 48);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2;
 }
 
 .stack {
   font-size: 12px;
   padding-bottom: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn {
@@ -76,17 +69,17 @@ img {
   display:flex;
   justify-content: center;
   color: rgb(100, 99, 99);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
   background-color: #76e4d1;
   border-top: 1px solid #74c2b4;
 }
 
 .btn:hover {
-  background-color: #6eb1a7;
+  background-color: #41ceb6;
   color: rgb(230, 228, 228);
 }
 
 .btn-container {
+  background-color: #76e4d1;
   display: flex;
 }
