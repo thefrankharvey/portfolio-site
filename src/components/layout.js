@@ -10,6 +10,7 @@ class Layout extends React.Component {
     return (
       <div className='app'>
       <Menu />
+      hey
       <ArticleContainer content={this.props}/>
       <Footer/>
       </div>
