@@ -1,4 +1,6 @@
-require(`dotenv`).config({path: `.env`})
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
 module.exports = {
   siteMetadata: {
@@ -14,12 +16,11 @@ module.exports = {
         path: `./src/data/`,
       },
     },
-    `gatsby-source-contentful`,
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        accessToken: process.env.CONTENTFUL_DELIVERY_ACCESS_TOKEN,
         spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_DELIVERY_ACCESS_TOKEN,
       },
     },
     `gatsby-transformer-sharp`,

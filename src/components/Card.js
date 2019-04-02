@@ -17,7 +17,7 @@ return buttonList
     return (
       <article className="card">
         <figure>
-        <iframe src={ giphy } width="100%" height="100%"  frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src={ giphy } width="100%" height="100%"  frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
         </figure>
         <div className="content">
         <div className="caption"><h4>{title}</h4></div>
