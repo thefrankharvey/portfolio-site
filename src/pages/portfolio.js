@@ -7,6 +7,9 @@ class Portfolio extends React.Component {
   render() {
     return (
       <div> 
+        <Helmet>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
         <Layout projects={this.props.data.allContentfulProject.edges} />
       </div>
     )
