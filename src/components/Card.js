@@ -20,7 +20,7 @@ return buttonList
         <iframe src={ giphy } width="100%" height="100%"  frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
         </figure>
         <div className="content">
-        <div className="caption"><h4>{title}</h4></div>
+        <div className="title"><p>{title}</p></div>
         <div className="summary">{summary}</div>
         <div className="date will go here"></div>
         </div>

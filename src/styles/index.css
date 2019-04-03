@@ -10,7 +10,7 @@
     /> */
 
 .index-container {
-  min-height: calc(100vh - 132px);
+  min-height: calc(100vh - 175px);
   width: 100%;
   background-image: url("../portfoliocat-01.png");
   background-size: cover;
@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 768px) {
   .index-container {
-    min-height: calc(100vh - 132px);
+    min-height: calc(100vh - 159px);
     width: 100%;
     background-image: url("../portfoliocat-01.png");
     background-size: cover;

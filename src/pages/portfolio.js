@@ -8,7 +8,7 @@ class Portfolio extends React.Component {
       <div>
         <Helmet>
           <link
-            href="https://fonts.googleapis.com/css?family=Germania+One|Roboto:400,500,700,900|Poppins|Playfair+Display:400,900"
+            href="https://fonts.googleapis.com/css?family=Germania+One|Roboto:400,500,700,900|Poppins:400,500,700|Playfair+Display:400,900"
             rel="stylesheet"
           />
           <link
